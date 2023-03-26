@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="webcss.css"> 
+        <script src="https://kit.fontawesome.com/bfc193c5ea.js" crossorigin="anonymous"></script>
+
+        </head>
+        <body>
+            <div class="main">
+                <div class="navbar">
+                    <div class="icon">
+                        <h2 class="logo">InternCrowd</h2>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Internships</a></li>
+                            
+                    
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <input class="srch" type="search" name="" placeholder="Type to text">
+                        <a href="#"><button class="btn">Search</button></a>
+                    </div>
+                    <div class="content">
+                        <h1>Intern Crowd</h1>
+                        <p class="par">Intern Crowd is an online coding <br>platform that offers specially programming <br>courses for students.
+                            You’ve probably<br> heard about how programming
+                            shines with<br> new technology. We have to be aware of</p>
+                            <button class="cn"><a href="#">Join Internships</a></button>
+
+                    </div>
+                    
+                </div>
+                <section class="section">
+                    
+                    <div class="paras">
+                    <p class="sectionTag text-big">Website Development</p>  
+                    
+                    <p class="sectionsubTag text-small">Web development, also known as web development, refers to the tasks involved in
+                        creating, creating, and maintaining web pages and web applications that run online in a
+                        browser.</p>
+                         </div>
+                         <div class="thumbnail1">
+                            <img src="img2.jpg" alt=" " class="imgFluid">
+                         </div>
+                         </section>
+                         <section class=" section section-left">
+                    
+                            <div class="paras">
+                            <p class="sectionTag text-big">APP Development</p>  
+                            
+                            <p class="sectionsubTag text-small">Android mobile apps has now suddenly arrived in the domain of necessity and
+                                veteran position because of the most adept and useful open source programming
+                                work and the simple mastery of creation methods.</p>
+                                 </div>
+                                 <div class="thumbnail1">
+                                    <img src="img3.jpg" alt=" " class="imgFluid">
+                                 </div>
+                         </section>
+                         <section class="section">
+                    
+                            <div class="paras">
+                            <p class="sectionTag text-big">Cloud Computing</p>  
+                            
+                            <p class="sectionsubTag text-small">Cloud Computing is defined as the storage and access of data and computing
+                                services over the Internet. It does not store any data on your personal computer. It
+                                is the availability of on-demand computing services such as servers, data storage,
+                                networks, databases, etc.</p>
+                                 </div>
+                                 <div class="thumbnail1">
+                                    <img src="img4.jpg" alt=" " class="imgFluid">
+                                 </div>
+                                 </section>
+                                 <div class="info">
+        
+                                    <div class="form-box">
+                                    <div class="button-box">
+                                        <div id="bttn"></div>
+                                        <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                                        <button type="button" class="toggle-btn" onclick="signup()">SignUp</button>
+                                        </div>
+                                        <div class="social-icons">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        
+                                      
+                                       
+                            
+                                    </div>
+                                    <form id="login" class="input-group">
+                                        <input type="text" class="input-field" placeholder="User Id" required>
+                                        <input type="text" class="input-field" placeholder="Enter Password" required>
+                                        <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                                        <button type="submit" class="submit-btn">Login</button>
+                            
+                                    </form>
+                                    <form id="signup" class="input-group">
+                                        <input type="text" class="input-field" placeholder="User Id" required>
+                                        <input type="email" class="input-field" placeholder="Email-Id" required>
+                                        <input type="text" class="input-field" placeholder="Enter Password" required>
+                                        <input type="checkbox" class="checkbox"><span>I agree to the terms and conditons</span>
+                                        <button type="submit" class="submit-btn">Sign Up</button>
+                            
+                                    </form>
+                                    </div>
+                                   
+                                </div>
+                                <script>
+                                    var x=document.getElementById("login");
+                                    var y=document.getElementById("signup");
+                                    var z=document.getElementById("bttn");
+                                    function signup(){
+                                        x.style.left="-400px";
+                                        y.style.left="50px";
+                                        z.style.left="110px";
+                            
+                                    }
+                                    function login(){
+                                        x.style.left="50";
+                                        y.style.left="450px";
+                                        z.style.left="0";
+                            
+                                    }
+                            
+                                    
+                                </script>
+                 
+      
+       
+            </div>
+
+        </body>
+</html>
